@@ -29,6 +29,13 @@ const reducer = (state = initialState, action) => {
                 ...state,
                 heroes: newCreatedHeroList, 
             }
+        case 'HERO_DELETED':
+            const newHeroList = state.heroes.filter(item => item.id !== action.payload)
+            
+            return {
+                ...state,
+                heroes: newHeroList, 
+            }
         default: return state
     }
 }

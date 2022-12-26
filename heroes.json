@@ -19,22 +19,16 @@
       "element": "water"
     },
     {
-      "id": "059cf4a6-b784-4ea1-849f-555cfbbe29ca",
-      "name": "Еще один",
-      "descr": "ничего",
-      "element": "earth"
-    },
-    {
-      "id": "3863c73d-9640-4bcb-9365-9bf9ff79ac72",
-      "name": "тестовый герой",
-      "descr": "много всего",
-      "element": "fire"
-    },
-    {
-      "id": "5390f073-ae27-4b6e-974d-6e378e257292",
-      "name": "тестовый герой",
-      "description": "а теперь?",
+      "id": "559dbdf6-2f06-4be9-a554-8278e793901b",
+      "name": "Первый",
+      "description": "выаываыва",
       "element": "wind"
+    },
+    {
+      "id": "5e873046-af2d-460d-a487-98dc3436ccf1",
+      "name": "Второй",
+      "description": "сисмисмисми",
+      "element": "water"
     }
   ],
   "filters": [
