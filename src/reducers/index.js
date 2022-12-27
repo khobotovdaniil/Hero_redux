@@ -4,7 +4,7 @@ const initialState = {
     filters: [],
     filtersLoadingStatus: 'idle',
     activeFilter: 'all',
-    filteredHeroes: [],
+    filteredHeroes: [], 
 }
 
 const reducer = (state = initialState, action) => {
@@ -19,8 +19,8 @@ const reducer = (state = initialState, action) => {
                 ...state,
                 heroes: action.payload,
                 filteredHeroes: state.activeFilter === 'all' ?
-                                state.heroes :
-                                state.heroes.filter (item => item.element === state.activeFilter),
+                                action.payload :
+                                action.payload.filter (item => item.element === state.activeFilter),
                 heroesLoadingStatus: 'idle'
             }
         case 'HEROES_FETCHING_ERROR':

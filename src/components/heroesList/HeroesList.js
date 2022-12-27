@@ -10,7 +10,7 @@ import Spinner from '../spinner/Spinner';
 import './heroesList.scss';
 
 const HeroesList = () => {
-    const {filteredHeroes, heroesLoadingStatus} = useSelector(state => state);
+    const {filteredHeroes, heroesLoadingStatus, activeFilter} = useSelector(state => state);
     const dispatch = useDispatch();
     const {request} = useHttp();
 
@@ -66,6 +66,7 @@ const HeroesList = () => {
     return (
         <ul>
             <TransitionGroup component='ul'>
+                <h2 className='text-center'>{activeFilter}</h2>
                 {elements}
             </TransitionGroup>
         </ul>
