@@ -10,7 +10,7 @@ import Spinner from '../spinner/Spinner';
 import './heroesList.scss';
 
 const HeroesList = () => {
-    const {heroes, heroesLoadingStatus} = useSelector(state => state);
+    const {filteredHeroes, heroesLoadingStatus} = useSelector(state => state);
     const dispatch = useDispatch();
     const {request} = useHttp();
 
@@ -31,12 +31,6 @@ const HeroesList = () => {
 
         // eslint-disable-next-line
     }, [request]);
-
-    if (heroesLoadingStatus === "loading") {
-        return <Spinner/>;
-    } else if (heroesLoadingStatus === "error") {
-        return <h5 className="text-center mt-5">Ошибка загрузки</h5>
-    }
 
     const renderHeroesList = (arr) => {
         if (arr.length === 0) {
@@ -61,7 +55,14 @@ const HeroesList = () => {
         })
     }
 
-    const elements = renderHeroesList(heroes);
+    const elements = renderHeroesList(filteredHeroes);
+
+    if (heroesLoadingStatus === "loading") {
+        return <Spinner/>;
+    } else if (heroesLoadingStatus === "error") {
+        return <h5 className="text-center mt-5">Ошибка загрузки</h5>
+    }
+
     return (
         <ul>
             <TransitionGroup component='ul'>
