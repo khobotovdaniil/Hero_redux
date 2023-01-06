@@ -25,16 +25,22 @@
       "element": "water"
     },
     {
-      "id": "264602e4-1421-420a-9fb2-c8bc34e26ba5",
-      "name": "vbghc",
-      "description": "cvbvbbvc",
-      "element": "wind"
-    },
-    {
       "id": "7d59dec2-b477-4a2e-a15e-3a88b3542979",
       "name": "ffghfhg",
       "description": "fdfdgdgfdgf",
       "element": "fire"
+    },
+    {
+      "id": "0b6a89ad-1554-4bcf-95d4-269beeffdadc",
+      "name": "fgfhggfh",
+      "description": "gfhgfhgfh",
+      "element": "wind"
+    },
+    {
+      "id": "da1b6e9d-6472-485b-be39-94c181ea0973",
+      "name": "прарара",
+      "description": "апарпрпра",
+      "element": "wind"
     }
   ],
   "filters": [
