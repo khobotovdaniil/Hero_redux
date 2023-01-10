@@ -19,28 +19,16 @@
       "element": "water"
     },
     {
-      "id": "42875058-7531-4142-85cc-fa6cedff21cf",
-      "name": "вапвапав",
-      "description": "ваппав",
+      "id": "c84cad80-6dee-4d05-b6d0-c02383e031be",
+      "name": "fdssfdfsd",
+      "description": "sdffssfd",
+      "element": "fire"
+    },
+    {
+      "id": "a3c4da82-59fa-49c8-91ce-4b3798b28702",
+      "name": "dgfgdfsgdf",
+      "description": "sdffdgfd",
       "element": "water"
-    },
-    {
-      "id": "7d59dec2-b477-4a2e-a15e-3a88b3542979",
-      "name": "ffghfhg",
-      "description": "fdfdgdgfdgf",
-      "element": "fire"
-    },
-    {
-      "id": "0b6a89ad-1554-4bcf-95d4-269beeffdadc",
-      "name": "fgfhggfh",
-      "description": "gfhgfhgfh",
-      "element": "wind"
-    },
-    {
-      "id": "f4f112ce-01b0-4663-912a-8ecf5353e7dd",
-      "name": "sdffsd",
-      "description": "sfdfdsfds",
-      "element": "fire"
     }
   ],
   "filters": [
